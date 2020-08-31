@@ -1,0 +1,168 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-toggler{
+	border: none !important;
+}
+
+.my-nav{
+	background-color: #585858;
+}
+
+.active a{
+	color: #bce02b !important;
+}
+
+.active a:hover{
+	color: #fff !important;
+}
+
+nav ul li a:hover{
+	color: #bce02b !important;
+}
+
+nav ul li a i{
+	color: #bce02b !important;
+}
+
+.slider{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/Layer.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*height: 500px;*/
+	position: relative;
+	/*top: 100px;*/
+	padding-top: 50px;
+}
+
+/*.slider-bg{
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	background-color: #000;
+	opacity: 50%;
+}*/
+
+.slide-div{
+	padding-top: 130px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #bce02b !important;
+}
+
+
+.big-bg{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../images/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*height: 1200px;*/
+	position: relative;
+}
+
+.about{
+	padding-top: 50px;
+}
+
+
+.heading-border h3{
+	border-bottom: 3px solid #fff;
+}
+
+.services{
+	padding-top: 50px;
+}
+
+.hover-img{
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	width: 91%;
+	height: 89%;
+	background-color: rgba(179,213,78,0.8);
+	top: 23px;
+	opacity: 0;
+}
+/*
+.overlay h3{
+	color: #fff;
+
+}*/
+
+.hover-img:hover .overlay{
+	opacity: 1;
+}
+
+
+.choose{
+	padding-top: 50px;
+}
+
+.choose ul{
+	list-style: none;
+	color: #fff;
+}
+
+.choose ul li{
+	padding-bottom: 20px;
+}
+
+.choose ul li i{
+	color: #bce02b;
+}
+
+.contact{
+	padding-bottom: 50px;
+}
+
+.contact ul{
+	list-style: none;
+}
+
+.contact i{
+	color: #bce02b;
+}
+
+.contact-name{
+	position: relative;
+	top: -15px;
+}
+
+.contact small{
+	position: relative;
+	top: -20px;
+	left: 42px;
+}
+
+.big-footer{
+	background-color: #585858;
+	padding-top: 20px;
+}
+
+.big-footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.big-footer ul li{
+	border-bottom:1px solid #fff;
+}
+
+.icons{
+	color: #bce02b;
+}
+
+.icons i{
+	padding-right: 20px;
+}
+
+.copyright{
+	background-color: #252525;
+	padding-top: 20px;
+}

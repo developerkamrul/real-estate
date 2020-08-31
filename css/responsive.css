@@ -1,0 +1,59 @@
+@media screen and (min-width: 769px) and (max-width: 992px){
+	.navbar-toggler {
+		position: relative;
+		top: 12px;
+	}
+	nav button:hover, nav button:focus, nav .button:hover,nav .button:focus {
+		background: none;
+	}
+
+	.dropdown-menu{
+		padding-left: 10px;
+	}
+
+	.slide-div{
+		padding-top: 70px;
+	}
+
+	.about img{
+		position: relative;
+		top:150px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.navbar-toggler {
+		position: relative;
+		top: 12px;
+	}
+
+	nav button:hover,nav button:focus,nav .button:hover,nav .button:focus {
+		background: none;
+	}
+
+	.dropdown-menu{
+		padding-left: 10px;
+	}
+
+	.slide-div{
+		padding-top: 0px;
+	}
+
+	.overlay {
+		position: absolute;
+		width: 91%;
+		height: 89%;
+		background-color: rgba(179,213,78,0.8);
+		top: 23px;
+		opacity: 0;
+	}
+
+	.logo-about, .recent, .follow{
+		text-align: center; 
+	}
+
+	.follow{
+		padding-top: 20px;
+	}
+
+}
