@@ -3,4 +3,4 @@
 
 psd to html practice 
 
-# https://itiskamrul.github.io/real-estate/
+# https://developerkamrul.github.io/real-estate/
